@@ -29,6 +29,8 @@ for i in range(numbers_number):
     char=str(random.choice(numbers))
     password.append(char)
 
-password = "".join(password)
-print ('Your random password is',password)
+
+random.shuffle(password)
+final_password = "".join(password)
+print ('Your random password is',final_password)
 
