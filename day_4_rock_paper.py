@@ -9,9 +9,10 @@ print(dash)
 from ast import Pass
 import random
 
-user_choice= input("Enter your choice:\n 1: Rock \n 2: Paper \n 3: Scissors\n")
+user_choice= input("Enter your choice as number :\n 1: Rock \n 2: Paper \n 3: Scissors\n")
 
 computer_choice=random.randint(1,3)
+
 print(computer_choice)
 
 if user_choice == computer_choice:
