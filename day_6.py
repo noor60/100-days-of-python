@@ -76,3 +76,13 @@ game()
 
 # anything you name is called namespace and scope is the area where that namespace is accessible.
 
+# modifying global variable inside function
+
+count=0
+
+def increment():
+    global count
+    count+=1
+    print(count)
+    
+increment()
